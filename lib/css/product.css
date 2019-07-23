@@ -1,0 +1,80 @@
+/* This is going to be used for any modified/custom styling */
+
+body {
+    background: black;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+.main_grid {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+}
+.bg-img {
+    background-image:url("/images/PUBG_Mobile.0.jpg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    
+
+}
+
+.bg1-img {
+    background-image:url("/images/200x120_Assassins_Creed_Black_Flag.jpeg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg2-img {
+    background-image:url("/images/200x120_CODGhost.jpg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg3-img {
+    background-image:url("/images/200x120_Skyrim.jpg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg4-img {
+    background-image:url("/images/feature_Fortnite_Logo.jpg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg5-img {
+    background-image:url("/images/200x120_CODGhost.jpg");
+    height:25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+footer {
+    background-color: grey;
+    opacity: 0.5;
+}
+
+
+ul {
+    display: flex;
+}
+
+li {
+    padding: 25px;
+    list-style-type: none;
+}
