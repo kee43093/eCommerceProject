@@ -92,6 +92,8 @@ h1 {
 
 .option {
     font-size: 2rem;
+    color:grey;
+    text-align: center;
 }
 
 .option:after {
@@ -136,6 +138,7 @@ h1 {
     background-position: center;
     background-size:cover;
     background-repeat: no-repeat;
+    
 }
 
 .bg4-img {
