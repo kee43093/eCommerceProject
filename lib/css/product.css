@@ -1,26 +1,117 @@
 /* This is going to be used for any modified/custom styling */
 
+*{
+    padding:0;
+    border:0;
+    margin:0;
+
+}
+
 body {
     background: black;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    
+}
+
+header {
+    position: relative;
+    text-align:center;
+}
+
+.xbox_logo {
+    background-image:url("/images/Xbox-Live-on-Android-iOS.jpg");
+    background-size: contain;
+    height: 10vh;
+    width: 10vh;
+    position: absolute;
+    right:0;
+    top:0;
+    background-repeat: no-repeat;
+
+}
+
+.alien_logo {
+    background-image:url("/images/Alienware-Logo.jpg");
+    background-size:contain;
+    height: 10vh;
+    width: 10vw;
+    background-repeat: no-repeat;
+    display:inline-block;   
+
+}
+
+.Ps4_logo {
+    background-image:url("/images/PS4-replacement.png");
+    background-size: contain;
+    height: 10vh;
+    width:10vw;
+    background-repeat: no-repeat;
+    position:absolute;
+    top:0;
+    left:0;
+
 }
 
 h1 {
-    color: white;
-    text-align: center;
+    color: grey;
+    
+}
+
+.versus_one {
+    position:absolute;
+    right: 19rem;
+    top:2rem;
+}
+
+.versus_two {
+    position:absolute;
+    left: 19rem;
+    top:2rem;
+}
+
+.signup {
+    position: absolute;
+    left:0;
+    top: 8.5rem;
+    font-size: 1.5rem;
+    color: green;
+    text-decoration: none;
+
+}
+
+.about_us {
+    position: absolute;
+    right:0;
+    top: 8.5rem;
+    font-size: 1.5rem;
+    color: green;
+    text-decoration: none;
+
+}
+
+.option {
+    font-size: 2rem;
+}
+
+.option:after {
+    content:"";
+    height: 1rem;
+    width: 1rem;
+    background: red;
 }
 
 .main_grid {
     display:grid;
     grid-template-columns: 1fr 1fr;
+    padding-top: 1rem;
 }
 .bg-img {
     background-image:url("/images/PUBG_Mobile.0.jpg");
     height:25vh;
     background-position: center;
     background-size:cover;
-    background-repeat: no-repeat;
-    
-
+    background-repeat: no-repeat;     
 }
 
 .bg1-img {
@@ -32,7 +123,7 @@ h1 {
 }
 
 .bg2-img {
-    background-image:url("/images/200x120_CODGhost.jpg");
+    background-image:url("/images/ghost\ replacement.jpeg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -40,7 +131,7 @@ h1 {
 }
 
 .bg3-img {
-    background-image:url("/images/200x120_Skyrim.jpg");
+    background-image:url("/images/2k20\ forreal.jpeg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -48,7 +139,7 @@ h1 {
 }
 
 .bg4-img {
-    background-image:url("/images/feature_Fortnite_Logo.jpg");
+    background-image:url("/images/the-elder-scrolls-v-skyrim.jpg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -56,7 +147,55 @@ h1 {
 }
 
 .bg5-img {
-    background-image:url("/images/200x120_CODGhost.jpg");
+    background-image:url("/images/madden20.jpg");
+    height:25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg6-img {
+    background-image:url("/images/Apex.jpg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg7-img {
+    background-image:url("/images/WOW.jpg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg8-img {
+    background-image:url("/images/Tom\ clancy.jpeg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg9-img {
+    background-image:url("/images/Grand\ Theft\ Auto\ V.jpg");
+    height:25vh;
+    background-position: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+
+.bg10-img {
+    background-image:url("/images/DAOC.jpg");
+    height:25vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.bg11-img {
+    background-image:url("/images/CounterStrike2.png");
     height:25vh;
     background-position: center;
     background-size: cover;
@@ -77,4 +216,8 @@ ul {
 li {
     padding: 25px;
     list-style-type: none;
+}
+
+video {
+    width:100%;
 }
