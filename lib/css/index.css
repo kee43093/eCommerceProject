@@ -34,14 +34,14 @@ li {
     margin: auto ;
     border: solid black 10px;
     overflow: hidden;
+    position:relative;
    
 }
 
 .sliderImages {
     display:flex;
     width: 100%; 
-    
-    
+
 }
 
 .sliderImages img {
@@ -63,7 +63,23 @@ a {
 }
 
 
+.fas {
+    border: solid black 5px;
+    border-radius: 100%;
+    font-size: 1rem;
+}
 
+#prevBtn {
+    position: absolute;
+    top: 30%;
+    right:3%;
+}
+
+#nextBtn {
+    position: absolute;
+    top: 30%;
+    left:3%;
+}
 
 
 
