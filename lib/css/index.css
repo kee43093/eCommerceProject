@@ -72,13 +72,15 @@ a {
 #prevBtn {
     position: absolute;
     top: 30%;
-    right:3%;
+    left:3%;
+    color: blue;
 }
 
 #nextBtn {
     position: absolute;
     top: 30%;
-    left:3%;
+    right:3%;
+    color:blue;
 }
 
 
