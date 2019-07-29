@@ -109,7 +109,7 @@ h1 {
     padding-top: 1rem;
 }
 .bg-img {
-    background-image:url("/images/PUBG_Mobile.0.jpg");
+    background-image:url("../../images/PUBG_Mobile.0.jpg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -125,7 +125,7 @@ h1 {
 }
 
 .bg2-img {
-    background-image:url("/images/ghost\ replacement.jpeg");
+    background-image:url("../../images/ghost\ replacement.jpeg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -133,7 +133,7 @@ h1 {
 }
 
 .bg3-img {
-    background-image:url("/images/2k20\ forreal.jpeg");
+    background-image:url("../../images/2k20\ forreal.jpeg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -142,7 +142,7 @@ h1 {
 }
 
 .bg4-img {
-    background-image:url("/images/the-elder-scrolls-v-skyrim.jpg");
+    background-image:url("../../images/the-elder-scrolls-v-skyrim.jpg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -150,7 +150,7 @@ h1 {
 }
 
 .bg5-img {
-    background-image:url("/images/madden20.jpg");
+    background-image:url("../../images/madden20.jpg");
     height:25vh;
     background-position: center;
     background-size: cover;
@@ -158,7 +158,7 @@ h1 {
 }
 
 .bg6-img {
-    background-image:url("/images/Apex.jpg");
+    background-image:url("../../images/Apex.jpg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -166,7 +166,7 @@ h1 {
 }
 
 .bg7-img {
-    background-image:url("/images/WOW.jpg");
+    background-image:url("../../images/WOW.jpg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -174,7 +174,7 @@ h1 {
 }
 
 .bg8-img {
-    background-image:url("/images/Tom\ clancy.jpeg");
+    background-image:url("../../images/Tom\ clancy.jpeg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -182,7 +182,7 @@ h1 {
 }
 
 .bg9-img {
-    background-image:url("/images/Grand\ Theft\ Auto\ V.jpg");
+    background-image:url("../../images/Grand\ Theft\ Auto\ V.jpg");
     height:25vh;
     background-position: center;
     background-size:cover;
@@ -190,7 +190,7 @@ h1 {
 }
 
 .bg10-img {
-    background-image:url("/images/DAOC.jpg");
+    background-image:url("../../images/DAOC.jpg");
     height:25vh;
     background-position: center;
     background-size: cover;
@@ -198,7 +198,7 @@ h1 {
 }
 
 .bg11-img {
-    background-image:url("/images/CounterStrike2.png");
+    background-image:url("../../images/CounterStrike2.png");
     height:25vh;
     background-position: center;
     background-size: cover;
