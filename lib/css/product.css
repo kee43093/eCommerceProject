@@ -117,7 +117,7 @@ h1 {
 }
 
 .bg1-img {
-    background-image:url("/images/200x120_Assassins_Creed_Black_Flag.jpeg");
+    background-image:url("../../images/200x120_Assassins_Creed_Black_Flag.jpeg");
     height:25vh;
     background-position: center;
     background-size:cover;
