@@ -74,6 +74,7 @@ a {
     top: 30%;
     left:3%;
     color: blue;
+    font-size:1.5rem;
 }
 
 #nextBtn {
@@ -81,7 +82,14 @@ a {
     top: 30%;
     right:3%;
     color:blue;
+    font-size:1.5rem;
+    
 }
 
 
 
+input {
+    top: 0;
+    right: 0;
+
+}
